@@ -99,9 +99,10 @@ function draw() {
   
   }
 
-  if(lives === 0){
-    gameState = "end";
-  }
+  // Write and if condition to set gameState to end
+  // when lives is equal to zero
+
+
 
   if(gameState === "end"){
     restartGame();
